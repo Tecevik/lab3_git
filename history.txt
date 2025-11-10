@@ -1,3 +1,4 @@
+* e22d4c9 Add history.txt
 *   e0d276b коммит фичи2 в ветку мейн
 |\  
 | * add93e6 feature2 change
