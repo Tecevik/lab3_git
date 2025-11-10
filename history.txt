@@ -1,0 +1,21 @@
+*   e0d276b коммит фичи2 в ветку мейн
+|\  
+| * add93e6 feature2 change
+* |   98cf669 коммит фичи1 в ветку мейн
+|\ \  
+| * | 5a6f3cf feature1 change
+| |/  
+* |   1043375 коммит временной ветки temp_reset
+|\ \  
+| * | 9bff367 коммит теормина после отката к 3-ему коммиту
+* | | 3f16ed7 коммит не теормина
+* | | 389909b коммит теормина
+| |/  
+|/|   
+* | cd5b816 add secrets.txt 5
+* | e337a44 add secrets.txt 4
+|/  
+* 4eacd02 add secrets.txt 3
+* 2f71813 add secrets.txt 2
+* 3a3d186 add secrets.txt 1
+* e969f47 init
