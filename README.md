@@ -90,3 +90,45 @@ git log --oneline --graph --all
 <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="200" alt="Success">
 
 </div>
+
+
+## 📊 Git History Graph
+
+Вот граф истории коммитов, демонстрирующий выполнение всех заданий лабораторной работы:
+
+```bash
+* b3bcf74 (HEAD -> main, origin/main) Add graph
+* 4ac67e6 коммит ридмишки
+* 5cf6608 коммит ридмишки
+* 24a934d коммит ридмишки
+* 9182acc Add diff.txt
+* 10390d3 Add history.txt
+* e22d4c9 Add history.txt
+*   e0d276b (origin/release, release) коммит фичи2 в ветку мейн
+|\
+| * add93e6 (origin/feature2, feature2) feature2 change
+* |   98cf669 коммит фичи1 в ветку мейн
+|\ \
+| * | 5a6f3cf (origin/feature1, feature1) feature1 change
+| |/
+* |   1043375 (origin/hf_tests, hf_tests) коммит временной ветки temp_reset
+|\ \
+| * | 9bff367 (origin/temp_reset, temp_reset) коммит теормина после отката к 3-ему коммиту
+* | | 3f16ed7 коммит не теормина
+* | | 389909b коммит теормина
+| |/
+|/|
+* | cd5b816 (origin/server_last, origin/pr_feature, origin/hotfix, origin/gguf, origin/backend_metal, origin/backend_cuda, server_last, pr_feature, hotfix, gguf, backend_metal, backend_cuda) add secrets.txt 5
+* | e337a44 add secrets.txt 4
+|/
+* 4eacd02 add secrets.txt 3
+* 2f71813 add secrets.txt 2
+* 3a3d186 add secrets.txt 1
+* e969f47 init
+```
+
+### 🔍 Анализ графа:
+- **Ветвление и слияние** - видны merge коммиты (задание 7)
+- **Rebase** - линейная история после задания 6  
+- **Множество веток** - feature1, feature2, hf_tests, release и др.
+- **Разрешение конфликтов** - отражено в истории коммитов
